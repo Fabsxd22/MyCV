@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi CV - Diego Chuquiej</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #fff;
+        }
+
+        /* Container styles */
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        /* Header and profile */
+        h1 {
+            text-align: left;
+            color: #4caf50;
+        }
+
+        .profile {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .profile img {
+            border-radius: 50%;
+            border: 5px solid #4caf50;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .profile h2 {
+            margin-top: 10px;
+        }
+
+        .profile h5 {
+            color: #4caf50;
+            font-style: italic;
+        }
+
+        /* Section titles */
+        h2 {
+            color: #4caf50;
+            margin-bottom: 10px;
+        }
+
+        /* Personal Information Section */
+        .personal-info {
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 1px solid #4caf50;
+            border-radius: 10px;
+            background-color: #222;
+        }
+
+        .personal-info ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .personal-info li {
+            margin-bottom: 10px;
+        }
+
+        .personal-info li span {
+            font-weight: bold;
+            color: #4caf50;
+        }
+
+        /* Skills list */
+        .skills-list li {
+            list-style: none;
+            margin-bottom: 15px;
+        }
+
+        .progress-bar {
+            background-color: #333;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-top: 5px;
+        }
+
+        .progress {
+            height: 10px;
+            background-color: #4caf50;
+        }
+
+        /* Education section */
+        .education-item {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .education-item img {
+            border-radius: 10px;
+            margin-right: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .education-item p {
+            margin: 0;
+        }
+
+        /* Button styles */
+        .download-btn {
+            display: inline-block;
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .download-btn:hover {
+            background-color: #3e8e41;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <h1>Chuquiej</h1>
+
+        <!-- Profile Section -->
+        <div class="profile">
+            <img src="yo.png" alt="Foto de perfil" width="150">
+            <h2>Diego Chuquiej</h2>
+            <h5>Bachiller en Ciencias y Letras</h5>
+        </div>
+
+        <!-- About Me -->
+        <section class="about">
+            <h2>Sobre mí</h2>
+            <p>Hola, mi nombre es Diego Chuquiej. Soy Bachiller en Ciencias y Letras con Orientación en Medicina, con un profundo interés por el aprendizaje continuo y el desarrollo personal. Poseo conocimientos básicos en salud, manejo de computadoras y tecnología, además de habilidades en comunicación efectiva y trabajo en equipo. Mi pasión por la tecnología me ha llevado a explorar áreas como mantenimiento básico de computadoras y mecanografía, mientras que mi formación en medicina me ha permitido participar en proyectos comunitarios relacionados con la salud, como seminarios de inyección y atención a la comunidad. A futuro, tengo el objetivo de estudiar Ingeniería en Sistemas, combinando mi interés por la tecnología con nuevas oportunidades de desarrollo profesional en un entorno dinámico y competitivo.</p>
+        </section>
+
+        <!-- Personal Information -->
+        <div class="personal-info">
+            <h2>Datos Personales</h2>
+            <ul>
+                <li><span>Cumpleaños:</span> 22-01-2007</li>
+                <li><span>Correo:</span> <a href="mailto:rchuquiej16.com@gmail.com" style="color: #4caf50;">rchuquiej16.com@gmail.com</a></li>
+                <li><span>Ciudad:</span> Guatemala, Ciudad de Guatemala</li>
+                <li><span>Carrera:</span> Bachiller en Ciencias y Letras con Orientación en Medicina</li>
+            </ul>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="skills">
+            <h2>Habilidades</h2>
+            <ul class="skills-list">
+                <li>
+                    <span>Comunicación</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;"></div>
+                    </div>
+                </li>
+                <li>
+                    <span>Trabajo en equipo</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                </li>
+                <li>
+                    <span>Creatividad</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;"></div>
+                    </div>
+                </li>
+                <li>
+                    <span>Dedicación</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 95%;"></div>
+                    </div>
+                </li>
+                <li>
+                    <span>Resolución de problemas</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Curriculum Section -->
+        <h2 style="text-align: center;">Curriculum</h2>
+
+        <!-- Education -->
+        <div class="education">
+            <h2>Educación</h2>
+
+            <div class="education-item">
+                <a href="https://liceocss.edu.gt/">
+                    <img src="CSS.jfif" alt="Liceo CSS" width="100">
+                </a>
+                <div>
+                    <h3>Nivel Básico</h3>
+                    <p>Liceo de Computación CSS (2020-2022)</p>
+                    <p>Mi educación básica la cursé en este colegio, donde adquirí los conocimientos fundamentales en programación, como HTML y una introducción al lenguaje C++. Además, aprendí los aspectos básicos del mantenimiento de computadoras, lo cual me permitió desarrollar habilidades tecnológicas esenciales.</p>
+                </div>
+            </div>
+
+            <div class="education-item">
+                <a href="https://colegiodrreichmann.edu.gt/">
+                    <img src="cefpre.jpg" alt="Colegio Reichmann" width="100">
+                </a>
+                <div>
+                    <h3>Nivel Medio (Diversificado)</h3>
+                    <p>Colegio Dr. Reichmann (2023-2024)</p>
+                    <p>En este colegio cursé mi carrera y me gradué como Bachiller en Ciencias y Letras con orientación en Medicina. Durante este proceso, adquirí conocimientos fundamentales en procedimientos médicos como la aplicación de inyecciones, la toma de signos vitales y la canalización. Además, tuve la oportunidad de desarrollarme en el área de la comunicación, participando en seminarios donde impartí charlas a niños. Realicé también una jornada laboral médica, en la que atendí a un mayor número de personas, siendo reconocido por mis compañeros y supervisores como uno de los mejores en mi desempeño. Fui quien más ayudó y trató con personas, y mis intervenciones fueron siempre eficaces, lo que me permitió fortalecer mis habilidades de comunicación y adquirir experiencia en el trato con pacientes.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Download Button -->
+        <div class="download">
+            <a href="Mi CV.pdf" class="download-btn" download>Descargar CV</a>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Diego Chuquiej
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
